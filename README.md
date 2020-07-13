@@ -1,10 +1,17 @@
 # TweetsAndNews
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+To check te web site please visit: https://pipe-news-tweets.azurewebsites.net/
 
-## Development server
+##System Requirements
+To locally run the project please run next commands to 
+->Install node: `npm install -g npm@latest`
+->Install angular: `npm install -g angular-cli`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To run the project in localhost: `ng serve` for a dev server.
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
 
 ## Code scaffolding
 

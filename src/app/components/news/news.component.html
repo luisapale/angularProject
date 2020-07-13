@@ -1,0 +1,17 @@
+<div class="container">
+    <h3 class="martop mt-4"> Trudeau recent News</h3><br>
+    <div class="row movieCont mt-4" *ngFor="let news of newsResponse">
+        <div class="col ">
+
+            <div class="media-body ">
+                <h6>{{news.headline}}</h6>
+                <h6>Section: {{news.section}}</h6>
+                <a> <b>Publish Date::</b> {{news.lastPublishDate}} </a>
+                <div><button class="btn btn-primary btn-sm " type="button " [routerLink]=" [ '/newsDetails', news._id] ">Details</button>
+                </div>
+            </div>
+
+        </div>
+        <br>
+    </div>
+</div>

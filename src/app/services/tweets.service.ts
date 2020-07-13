@@ -4,19 +4,15 @@ import { Observable } from 'rxjs';
 import { Tweets } from '../model/tweets';
 import { map } from "rxjs/operators";
 
-
-
-
 @Injectable({
   providedIn: 'root'
 })
-
-
 
 export class TweetsService {
 
   constructor(private http: HttpClient) { 
     console.log("Tweet service ready");
+    
   }
 
 /**

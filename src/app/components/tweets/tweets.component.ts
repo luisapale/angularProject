@@ -23,7 +23,7 @@ export class TweetsComponent implements OnInit {
    getTweets() {
     this.servicio.getLatestTweets().subscribe((res: Tweets[]) => {
       this.tweetsResponse = res;
-      console.log(JSON.stringify(res));
+      //console.log(JSON.stringify(res));
     });
   }
 

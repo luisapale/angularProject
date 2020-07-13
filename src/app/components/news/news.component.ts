@@ -21,9 +21,10 @@ export class NewsComponent implements OnInit {
    *Method used to show the data in the views (the most 25 recent ccn news about the president Trudeau) 
    */
   getNews() {
+    
     this.newsService.getLatestNews().subscribe((newsres: News[]) => {
       this.newsResponse = newsres;
-      console.log(JSON.stringify(newsres));
+      //console.log("news in component " + JSON.stringify(newsres));
     });
 
 

@@ -25,7 +25,7 @@ getQuery(query: string) {
 
   const headers = new HttpHeaders({
     Authorization:
-      "Bearer AAAAAAAAAAAAAAAAAAAAALyVFwEAAAAAId2Ub19lQMC9TGnsW%2BfaVXzZ1X8%3DdKFlN9Nxvkbz0eezvCU3QiRmC9xnHB0RGmhyqU0eNlQKeuuOEf",
+    /*here the bearer auth*/
   });
 
   return this.http.get(url, { headers });
